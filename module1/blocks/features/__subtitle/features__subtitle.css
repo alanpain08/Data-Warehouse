@@ -1,0 +1,9 @@
+.features__subtitle {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #4B5D68;
+    font-weight: 500;
+    max-width: 584px;
+    text-align: center;
+    margin: 50px 0 100px;
+}

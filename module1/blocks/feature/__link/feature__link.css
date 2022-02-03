@@ -1,0 +1,12 @@
+.feature__link {
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.005em;
+    font-weight: 700;
+    color: #212353;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 127px;
+    max-height: 26px;
+}
