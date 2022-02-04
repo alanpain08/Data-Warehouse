@@ -27,3 +27,13 @@
 @import url(./blocks/feature/__title/feature__title.css);
 @import url(./blocks/feature/__text/feature__text.css);
 @import url(./blocks/feature/__link/feature__link.css);
+@import url(./blocks/slider/slider.css);
+@import url(./blocks/slider/__title/slider__title.css);
+@import url(./blocks/slider/__list/slider_list.css);
+@import url(./blocks/slider/__item/slider__item.css);
+@import url(./blocks/slider/__item-avatar/slider__item-avatar.css);
+@import url(./blocks/slider/__item-container/slider__item-container.css);
+@import url(./blocks/slider/__item-container/_active/slider__item-container_active.css);
+@import url(./blocks/slider/__item-name/slider__item-name.css);
+@import url(./blocks/slider/__item-profession/slider__item-profession.css);
+@import url(./blocks/slider/__item-text/slider__item-text.css);
