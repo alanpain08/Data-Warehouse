@@ -1,4 +1,5 @@
 .slider__list {
-    display: flex;
-    overflow: visible;
+  display: flex;
+  overflow: visible;
+  position: relative;
 }

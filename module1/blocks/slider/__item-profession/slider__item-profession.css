@@ -1,12 +1,12 @@
 .slider__item-profession {
-    font-size: 14px;
-    line-height: 1.6;
-    letter-spacing: 0.01em;
-    color: #9C69E2;
-    margin: 0;
-    text-decoration: none;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  color: #9c69e2;
+  margin: 0;
+  text-decoration: none;
 }
 
 .slider__item-profession:hover {
-    cursor: pointer;
+  cursor: pointer;
 }

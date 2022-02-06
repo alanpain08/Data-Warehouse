@@ -1,9 +1,9 @@
 .features__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: minmax(min-content, max-content) max-content;
-    gap: 50px 45px;
-    width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: minmax(min-content, max-content) max-content;
+  gap: 50px 45px;
+  width: 100%;
 }

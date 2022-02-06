@@ -1,8 +1,8 @@
 .about-us {
-    max-width: 1117px;
-    height: 560px;
-    background: rgba(240, 99, 184, 0.15);
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
+  max-width: 1117px;
+  height: 560px;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
 }

@@ -1,0 +1,6 @@
+.slider__nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 950px;
+  margin-top: 60px;
+}

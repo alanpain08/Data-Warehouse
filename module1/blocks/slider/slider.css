@@ -1,9 +1,9 @@
 .slider {
-    max-width: 1120px;
-    background-color: #9C69E2;
-    border-radius: 50px;
-    display: flex;
-    flex-direction: column;
-    padding: 109px 0 60px 93px;
-    box-sizing: border-box;
+  max-width: 1120px;
+  background-color: #9c69e2;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 109px 0 60px 93px;
+  box-sizing: border-box;
 }

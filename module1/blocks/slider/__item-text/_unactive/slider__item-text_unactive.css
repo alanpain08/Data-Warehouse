@@ -1,0 +1,5 @@
+.slider__item-text_unactive {
+  background: -webkit-linear-gradient(#4b5d68, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

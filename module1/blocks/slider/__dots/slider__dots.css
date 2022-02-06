@@ -1,0 +1,6 @@
+.slider__dots {
+  max-width: 55px;
+  max-height: 10px;
+  display: flex;
+  align-items: center;
+}

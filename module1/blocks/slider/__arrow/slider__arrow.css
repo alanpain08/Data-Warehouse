@@ -1,0 +1,8 @@
+.slider__arrow {
+  height: 14px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  background-position: center;
+  background-size: cover;
+}

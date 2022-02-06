@@ -1,0 +1,7 @@
+.slider__item_third {
+  position: absolute;
+  top: 0;
+  right: -460px;
+  margin-right: 0;
+  text-overflow: ellipsis;
+}

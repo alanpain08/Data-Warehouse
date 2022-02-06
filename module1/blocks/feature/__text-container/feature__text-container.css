@@ -1,8 +1,8 @@
 .feature__text-container {
-    grid-area: 1/2;
-    max-width: 220px;
-    display: grid;
-    gap: 20px;
-    justify-self: end;
-    margin: 49px 50px 33px 0;
+  grid-area: 1/2;
+  max-width: 220px;
+  display: grid;
+  gap: 20px;
+  justify-self: end;
+  margin: 49px 50px 33px 0;
 }

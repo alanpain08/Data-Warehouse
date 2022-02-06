@@ -1,9 +1,9 @@
 .intro__img-container {
-    width: 885px;
-    height: 468px;
-    background-image: url(../../../images/intro.png);
-    grid-column: 1/2;
-    grid-row: 1/2;
-    justify-self: end;
-    margin-top: 96px;
+  width: 885px;
+  height: 468px;
+  background-image: url(../../../images/intro.png);
+  grid-column: 1/2;
+  grid-row: 1/2;
+  justify-self: end;
+  margin-top: 96px;
 }

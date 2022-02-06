@@ -1,6 +1,6 @@
 .slider__item-avatar {
-    max-width: 90px;
-    max-height: 90px;
-    border-radius: 50%;
-    object-fit: contain;
+  max-width: 90px;
+  max-height: 90px;
+  border-radius: 50%;
+  object-fit: contain;
 }

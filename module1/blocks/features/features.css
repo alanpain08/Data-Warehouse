@@ -1,8 +1,8 @@
 .features {
-    padding: 150px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1120px;
+  padding: 150px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1120px;
 }

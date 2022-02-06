@@ -1,0 +1,7 @@
+.slider__dot_active {
+  margin-left: 0;
+  width: 10px;
+  height: 10px;
+  color: #f063b8;
+  background-color: #f063b8;
+}
