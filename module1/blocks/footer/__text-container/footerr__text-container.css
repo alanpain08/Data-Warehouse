@@ -1,0 +1,5 @@
+.footer__text-container {
+  max-width: 335px;
+  display: flex;
+  flex-direction: column;
+}

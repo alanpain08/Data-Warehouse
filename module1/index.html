@@ -29,7 +29,9 @@
 
   <body class="page">
     <header class="header">
-      <img class="header__logo logo" src="./images/Logo.svg" alt="логотип" />
+      <a href="#">
+        <img class="header__logo logo" src="./images/Logo.svg" alt="logo" />
+      </a>
       <nav class="header__nav">
         <a href="#" class="header__nav-link">About</a>
         <a href="#" class="header__nav-link">Help</a>
@@ -46,15 +48,17 @@
             security, so you can store your data here safely but not be afraid
             of being stolen by others.
           </p>
-          <a href="#" class="intro__btn"
-            ><button type="button" class="intro__btn">Learn more</button></a
-          >
+          <a href="#" class="intro__btn">
+            <button type="button" class="intro__btn">Learn more</button>
+          </a>
         </div>
-        <div class="intro__img-container"></div>
+        <img class="intro__img-container" src="./images/intro.png" />
+        <!--класс переименовать, добавить альт-->
       </section>
 
       <section class="about-us">
-        <div class="about-us__img-container"></div>
+        <img class="about-us__img-container" src="./images/aboutUs.png" />
+        <!--класс переименовать, добавить альт-->
         <article class="about-us__article">
           <h2 class="about-us__title">We are a high-level data storage bank</h2>
           <p class="about-us__text">
@@ -78,7 +82,7 @@
             <img
               class="feature__img"
               src="./images/feature1.png"
-              alt="картинка"
+              alt="features image"
             />
             <div class="feature__text-container">
               <h3 class="feature__title">Search Data</h3>
@@ -95,7 +99,7 @@
             <img
               class="feature__img"
               src="./images/feature2.png"
-              alt="картинка"
+              alt="features image"
             />
             <div class="feature__text-container">
               <h3 class="feature__title">24 Hours Access</h3>
@@ -112,7 +116,7 @@
             <img
               class="feature__img"
               src="./images/feature3.png"
-              alt="картинка"
+              alt="features image"
             />
             <div class="feature__text-container">
               <h3 class="feature__title">Print Out</h3>
@@ -128,7 +132,7 @@
             <img
               class="feature__img"
               src="./images/feature4.png"
-              alt="картинка"
+              alt="features image"
             />
             <div class="feature__text-container">
               <h3 class="feature__title">Security Code</h3>
@@ -150,7 +154,7 @@
             <img
               class="slider__item-avatar"
               src="./images/avatar1.png"
-              alt="аватарка"
+              alt="persons avatar"
             />
             <div class="slider__item-container slider__item-container_active">
               <p class="slider__item-name">John Fang</p>
@@ -167,7 +171,7 @@
             <img
               class="slider__item-avatar slider__item-avatar_unactive"
               src="./images/avatar2.png"
-              alt="аватарка"
+              alt="persons avatar"
             />
             <div class="slider__item-container">
               <p class="slider__item-name">Jeny Doe</p>
@@ -184,7 +188,7 @@
             <img
               class="slider__item-avatar slider__item-avatar_unactive"
               src="./images/avatar3.png"
-              alt="аватарка"
+              alt="persons avatar"
             />
             <div class="slider__item-container">
               <p class="slider__item-name">William</p>
@@ -223,7 +227,46 @@
     </main>
 
     <footer class="footer">
-        <div class="footer__container"></div>
+      <div class="footer__text-container">
+        <div class="footer__logo-container">
+          <a href="#">
+            <img class="footer__logo logo" src="./images/Logo.svg" alt="logo" />
+          </a>
+          <p class="footer__logo-title">DataWarehouse</p>
+        </div>
+        <p class="footer__info-adress">
+          Warehouse Society, 234<br />
+          Bahagia Ave Street PRBW 29281
+        </p>
+        <p class="footer__info-contacts">
+          info@warehouse.project<br />
+          1-232-3434 (Main)
+        </p>
+        <p class="footer__copyright">
+          © Datawarehouse™, 2020. All rights reserved.<br />
+          Company Registration Number: 21479524.
+        </p>
+      </div>
+      <div class="footer__nav">
+        <p class="footer__nav-title">Social Media</p>
+        <ul class="footer__links">
+          <li>
+            <a href="#" target="_blank">
+              <button type="button" class="footer__link"></button>
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <button type="button" class="footer__link"></button>
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <button type="button" class="footer__link"></button>
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

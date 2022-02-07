@@ -1,4 +1,7 @@
 .feature__img {
   z-index: -1;
   grid-area: 1/2;
+  width: 100%;
+  max-width: 544px;
+  max-height: 358px;
 }

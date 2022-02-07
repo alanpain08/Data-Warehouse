@@ -1,4 +1,5 @@
 .main {
   overflow: hidden;
   padding: 143px 0 149px 0;
+  border-bottom: 2px solid rgba(156, 105, 226, 0.2);
 }
