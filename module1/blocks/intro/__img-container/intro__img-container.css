@@ -7,3 +7,9 @@
   justify-self: end;
   margin-top: 96px;
 }
+
+@media screen and (max-width: 1280px) {
+  .intro__img-container {
+    margin: 100px 0 0 200px;
+  }
+}

@@ -50,6 +50,7 @@
 @import url(./blocks/slider/__arrow/_prev/slider__arrow_prev.css);
 @import url(./blocks/slider/__arrow/_next/slider__arrow_next.css);
 @import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__main-container/footer__main-container.css);
 @import url(./blocks/footer/__text-container/footerr__text-container.css);
 @import url(./blocks/footer/__logo-container/footer__logo-container.css);
 @import url(./blocks/footer/__logo-title/footer__logo-title.css);

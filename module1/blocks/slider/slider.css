@@ -7,3 +7,15 @@
   padding: 109px 0 60px 93px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1280px) {
+  .slider {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .slider {
+    width: 100%;
+  }
+}

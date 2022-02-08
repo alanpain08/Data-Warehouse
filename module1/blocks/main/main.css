@@ -1,5 +1,28 @@
 .main {
+  display: flex;
+  flex-direction: column;
+  padding: 143px 0 149px 15%;
+  width: 100%;
+  max-width: 1600px;
   overflow: hidden;
-  padding: 143px 0 149px 0;
-  border-bottom: 2px solid rgba(156, 105, 226, 0.2);
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1440px) {
+  .main {
+    padding-left: 12.326%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+  }
 }
