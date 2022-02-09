@@ -1,7 +1,13 @@
 .header {
   display: flex;
-  max-width: 401px;
+  width: 100%;
+  max-width: 1120px;
   max-height: 35px;
-  justify-content: space-between;
-  align-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    justify-content: center;
+  }
 }

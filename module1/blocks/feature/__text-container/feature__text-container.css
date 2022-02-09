@@ -6,3 +6,9 @@
   justify-self: end;
   margin: 49px 50px 33px 0;
 }
+
+@media screen and (max-width: 568px) {
+  .feature__text-container {
+    margin: 29px 25px 15px 0;
+  }
+}

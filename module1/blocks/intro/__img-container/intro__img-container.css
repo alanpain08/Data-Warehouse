@@ -13,3 +13,12 @@
     margin: 100px 0 0 200px;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .intro__img-container {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 20px 0 0 0;
+    justify-self: center;
+  }
+}

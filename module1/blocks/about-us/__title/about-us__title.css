@@ -4,3 +4,10 @@
   font-weight: 700;
   color: #212353;
 }
+
+@media screen and (max-width: 568px) {
+  .about-us__title {
+    font-size: 32px;
+    margin: 0;
+  }
+}

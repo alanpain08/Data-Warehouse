@@ -1,6 +1,23 @@
 .slider__list {
   display: flex;
-  overflow: visible;
-  position: relative;
   width: 1485px;
+}
+
+@media screen and (max-width: 1180px) {
+  .slider__list {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .slider__list {
+    width: calc(100% - 40px);
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .slider__list {
+    justify-content: center;
+  }
 }

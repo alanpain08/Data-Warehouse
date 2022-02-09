@@ -10,3 +10,12 @@
   gap: 50px 45px;
   width: 100%;
 }
+
+@media screen and (max-width: 1000px) {
+  .features__list {
+    grid-template-columns: minmax(min-content, max-content);
+    gap: 45px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+  }
+}

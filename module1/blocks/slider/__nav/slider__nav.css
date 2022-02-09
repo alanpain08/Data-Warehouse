@@ -4,3 +4,9 @@
   max-width: 950px;
   margin-top: 60px;
 }
+
+@media screen and (max-width: 1024px) {
+  .slider__nav {
+    width: calc(100% - 60px);
+  }
+}

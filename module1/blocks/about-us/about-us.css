@@ -12,3 +12,17 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .about-us {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .about-us {
+    flex-direction: column;
+    justify-content: stretch;
+    text-align: center;
+  }
+}

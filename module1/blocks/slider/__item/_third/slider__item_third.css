@@ -1,13 +1,1 @@
-.slider__item_third {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-right: 0;
-  text-overflow: ellipsis;
-}
 
-@media screen and (max-width: 1280px) {
-  .slider__item_third {
-    display: none;
-  }
-}

@@ -9,3 +9,7 @@
   background-color: white;
   color: white;
 }
+
+.slider__dot:hover {
+  cursor: pointer;
+}

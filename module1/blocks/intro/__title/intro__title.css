@@ -4,3 +4,9 @@
   line-height: 1.1;
   color: #212353;
 }
+
+@media screen and (max-width: 1000px) {
+  .intro__title {
+    text-align: center;
+  }
+}

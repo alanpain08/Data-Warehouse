@@ -15,3 +15,33 @@
   max-width: 645px;
   padding: 60px 70px 50px 70px;
 }
+
+@media screen and (max-width: 1280px) {
+  .slider__item:last-of-type {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .slider__item:first-of-type {
+    padding: 40px 50px 25px 50px;
+  }
+
+  .slider__item:nth-last-of-type(2n) {
+    margin-right: 0;
+  }
+
+  .slider__item {
+    padding: 45px 50px 45px 30px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .slider__item:nth-last-of-type(2n) {
+    display: none;
+  }
+
+  .slider__item {
+    margin-right: 0;
+  }
+}

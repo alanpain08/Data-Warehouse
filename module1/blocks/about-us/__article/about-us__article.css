@@ -2,3 +2,17 @@
   max-width: 475px;
   max-height: 310px;
 }
+
+@media screen and (max-width: 1024px) {
+  .about-us__article {
+    max-height: 500px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .about-us__article {
+    margin: 0;
+    max-height: 350px;
+  }
+}
