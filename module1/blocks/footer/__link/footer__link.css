@@ -6,4 +6,10 @@
   padding: 0;
   display: block;
   margin: 30px 14px 0 0;
+  transition: all linear;
+}
+
+.footer__link:hover {
+  cursor: pointer;
+  transform: scale(1.2);
 }

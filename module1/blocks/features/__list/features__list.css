@@ -19,3 +19,10 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 568px) {
+  .features__list {
+    gap: 35px;
+    width: calc(100% - 10px);
+  }
+}

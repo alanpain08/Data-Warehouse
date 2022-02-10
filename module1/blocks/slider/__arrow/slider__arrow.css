@@ -5,8 +5,10 @@
   background-color: transparent;
   background-position: center;
   background-size: cover;
+  transition: all linear;
 }
 
 .slider__arrow:hover {
   cursor: pointer;
+  transform: scale(1.5);
 }

@@ -10,3 +10,7 @@
   max-width: 127px;
   max-height: 26px;
 }
+
+.feature__link:hover {
+  opacity: 0.8;
+}

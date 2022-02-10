@@ -7,4 +7,10 @@
   background-color: #9c69e2;
   color: white;
   cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+.intro__btn:hover {
+  box-shadow: 0 0 10px 0 #7f3b86 inset, 0 0 10px 4px #682c6e;
+  opacity: 0.8;
 }

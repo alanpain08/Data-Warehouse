@@ -10,3 +10,11 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .about-us__img-container {
+    width: calc(100% - 20px);
+    max-height: 280px;
+    object-fit: contain;
+  }
+}

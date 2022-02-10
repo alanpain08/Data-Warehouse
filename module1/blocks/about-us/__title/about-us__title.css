@@ -11,3 +11,9 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .about-us__title {
+    font-size: 28px;
+  }
+}

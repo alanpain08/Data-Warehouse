@@ -4,3 +4,9 @@
   border-radius: 50%;
   object-fit: contain;
 }
+
+@media screen and (max-width: 500px) {
+  .slider__item-avatar {
+    margin: 10px 0 0 0;
+  }
+}

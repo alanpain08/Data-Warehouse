@@ -12,3 +12,17 @@
     margin: 29px 25px 15px 0;
   }
 }
+
+@media screen and (max-width: 568px) {
+  .feature__text-container {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .feature__text-container {
+    width: calc(100% - 10px);
+    text-align: end;
+    justify-items: end;
+  }
+}

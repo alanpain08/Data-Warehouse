@@ -10,3 +10,15 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    font-size: 76px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro__title {
+    font-size: 68px;
+  }
+}

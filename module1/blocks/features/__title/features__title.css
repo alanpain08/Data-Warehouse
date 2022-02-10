@@ -4,3 +4,9 @@
   color: #212353;
   margin: 0;
 }
+
+@media screen and (max-width: 390px) {
+  .features__title {
+    font-size: 28px;
+  }
+}

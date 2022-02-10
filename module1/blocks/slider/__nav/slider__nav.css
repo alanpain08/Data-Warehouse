@@ -10,3 +10,15 @@
     width: calc(100% - 60px);
   }
 }
+
+@media screen and (max-width: 500px) {
+  .slider__nav {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .slider__nav {
+    margin-top: 25px;
+  }
+}

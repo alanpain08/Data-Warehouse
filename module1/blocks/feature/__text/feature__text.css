@@ -5,3 +5,9 @@
   color: #4b5d68;
   max-height: 160px;
 }
+
+@media screen and (max-width: 390px) {
+  .feature__text {
+    font-size: 14px;
+  }
+}

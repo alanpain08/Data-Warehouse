@@ -2,3 +2,9 @@
   max-width: 385px;
   max-height: 200px;
 }
+
+@media screen and (max-width: 390px) {
+  .slider__item-container_active {
+    max-height: 1000px;
+  }
+}

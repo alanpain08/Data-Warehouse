@@ -8,8 +8,10 @@
   margin-left: 10px;
   background-color: white;
   color: white;
+  transition: all linear;
 }
 
 .slider__dot:hover {
   cursor: pointer;
+  transform: scale(1.5);
 }

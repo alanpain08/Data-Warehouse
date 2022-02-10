@@ -39,3 +39,9 @@
     padding: 90px 0;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .main {
+    padding: 70px 0;
+  }
+}
